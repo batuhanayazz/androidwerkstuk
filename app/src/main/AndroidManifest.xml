@@ -9,9 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PlantcareApp">
-        <activity android:name=".homePage"></activity>
-        <activity android:name=".createAccount" />
-        <activity android:name=".loginPage" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_homapage"
+            android:theme="@style/Theme.PlantcareApp.NoActionBar"></activity>
+        <activity android:name=".AlertPage"></activity>
+        <activity android:name=".PlantList" />
+        <activity android:name=".PlantDetail" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".CreateAccountActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

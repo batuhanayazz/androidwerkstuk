@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_nav">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_nav"
+    app:startDestination="@id/homePage">
 
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.demo.plantcareapp.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/createAccount"
+        android:name="com.demo.plantcareapp.CreateAccountActivity"
+        android:label="activity_create_account"
+        tools:layout="@layout/activity_create_account" />
+    <activity
+        android:id="@+id/login"
+        android:name="com.demo.plantcareapp.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/homePage"
+        android:name="com.demo.plantcareapp.HomeActivity"
+        android:label="activity_home_page"
+        tools:layout="@layout/activity_home" />
+    <activity
+        android:id="@+id/plantDetail"
+        android:name="com.demo.plantcareapp.PlantDetail"
+        android:label="activity_plant_detail"
+        tools:layout="@layout/activity_plant_detail" />
 </navigation>

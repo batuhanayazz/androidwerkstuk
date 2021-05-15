@@ -3,9 +3,9 @@ package com.demo.plantcareapp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class createAccount : AppCompatActivity() {
+class PlantDetail : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_create_account)
+        setContentView(R.layout.activity_plant_detail)
     }
 }
